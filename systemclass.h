@@ -7,6 +7,7 @@
 ///////////////////////////////
 // PRE-PROCESSING DIRECTIVES //
 ///////////////////////////////
+// We do this to speed up the build process, it reduces the size of the Win32 header files by excluding some of the less used APIs.
 #define WIN32_LEAN_AND_MEAN
 
 //////////////
